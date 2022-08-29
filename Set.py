@@ -1,0 +1,9 @@
+a={1,2,"Kevin",5.69,True}
+print(a)
+a.add("harry")
+b={3.14,"GG","",False,3,(2,3,4,5)}
+a.update(b)
+print(a)
+a.union(b)
+print(a)
+print(b)

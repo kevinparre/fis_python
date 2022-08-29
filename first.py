@@ -1,0 +1,12 @@
+print("hi")
+a=3
+print(type(a))
+print(id(a))
+a="kevin"
+print(type(a))
+print(id(a))
+a="jkjkj"
+print(type(a))
+print(id(a))
+a=8
+b=9

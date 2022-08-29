@@ -1,0 +1,6 @@
+ID         Name               Location    O-Salary     email                    N-Salary     
+------------------------------------------------------------------------------------------------
+
+
+
+10004      Vedant Dawake      Pimple        80000        VedPim@fisglobal.com     92000.0     

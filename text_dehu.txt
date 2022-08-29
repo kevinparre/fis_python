@@ -1,0 +1,6 @@
+ID         Name               Location    O-Salary     email                    N-Salary     
+------------------------------------------------------------------------------------------------
+
+10002      Sam Charles        Bangalore        60000        SamBan@fisglobal.com     72000.0     
+10003      Sumit Gaikwad      Dehu        70000        SumDeh@fisglobal.com     80500.0     
+

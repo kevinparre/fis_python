@@ -1,0 +1,34 @@
+f=open("C:\\Users\Administrator\\Desktop\\text.txt",'r')
+line=f.readline()
+
+counter=0
+salarys=[]
+while line:
+    counter+=1
+    
+    salary=int(line[31:37])
+    location=line[20:30].strip()
+    
+    if(location.startswith("Pune")):
+        salary=salary+(.1 * salary)
+    elif(location.startswith("Dehu")):
+        salary=salary+(.15 * salary) 
+    elif(location.startswith("Bangalore")):
+        salary=salary+(.20 * salary) 
+    salarys.append(salary) 
+             
+    print("Record Number : ",counter)
+    print("Record ID : ",line[:5])
+    print("Record Name : ",line[5:20])
+    print("Record Location : ",line[20:30]) 
+    print("Record Salary : ",line[31:37])
+    print("Record Email: ",line[5:9]+line[20:23]+"@fisglobal.com")
+    print("New Salary : ",salary)
+    print("*****************************")
+    
+    line=f.readline()
+print("Total Records: ",counter)    
+print("*******All Records Processed!!*********")
+print("The highest Salary is : ", max(salarys))
+
+f.close()   
